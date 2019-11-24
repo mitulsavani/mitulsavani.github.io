@@ -276,6 +276,9 @@ body {
   display: block;
 }
 
+.link { color: #fff; } /* CSS link color (red) */
+.link:hover { color: #57e5ae; }
+
 #about span i {
   font-size: 16px;
 }
