@@ -61,7 +61,7 @@ body {
   background-size: cover !important;
   background-repeat: no-repeat;
   position: fixed;
-  color: #fff !important;
+  color: #222 !important;
 }
 
 #display {
@@ -217,9 +217,15 @@ body {
 
 #footer a {
   color: var(--text-color) !important;
-  text-decoration: none;
   font-family: "Questrial", sans-serif;
-  font-weight: bold;
+  border-bottom-width: thin;
+  font-weight: bolder;
+}
+
+
+#footer a:hover{
+  color: #5d93ff !important;
+  text-decoration: none;
 }
 
 #profile_img {
@@ -245,7 +251,7 @@ body {
 }
 
 #username span {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #userbio {
@@ -261,23 +267,21 @@ body {
 
 #about a,
 #username a {
-  color: #fff !important;
-  text-decoration: none;
+  color: #222 !important;
+  border-bottom-width: thick #222;
   font-weight: bold;
 }
 
 #about a:hover,
 #username a:hover {
-  text-decoration: underline;
+  color: #5d93ff !important;
+  text-decoration: none;
 }
 
 #about span {
   margin: 1vh 0px;
   display: block;
 }
-
-.link { color: #fff; } /* CSS link color (red) */
-.link:hover { color: #57e5ae; }
 
 #about span i {
   font-size: 16px;
@@ -358,7 +362,7 @@ body {
 }
 
 .socials {
-  color: #fff;
+  color: black;
   text-decoration: none;
   margin: 3vh 0px !important;
 }
@@ -428,6 +432,17 @@ body {
   margin-top: 4vh;
 }
 
+.sidebar__inner:after {
+  background: #e6e6e6;
+  background: linear-gradient(180deg,#e6e6e6 0,#e6e6e6 48%,#fff);
+  position: absolute;
+  content: "";
+  width: .0625rem;
+  height: 540px;
+  top: 30px;
+  right: -10px;
+  bottom: 0;
+}
 ::selection {
   color: var(--bg-color);
   background: var(--text-color);
@@ -557,6 +572,5 @@ body {
       rgba(10, 10, 10, 0.4),
       rgb(10, 10, 10, 0.4)
     ),
-    url("https://images.unsplash.com/photo-1518365050014-70fe7232897f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
   --background-background: #fff;
 }
