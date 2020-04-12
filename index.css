@@ -61,7 +61,7 @@ body {
   background-size: cover !important;
   background-repeat: no-repeat;
   position: fixed;
-  color: #222 !important;
+  color: var(--text-color) !important;
 }
 
 #display {
@@ -267,8 +267,8 @@ body {
 
 #about a,
 #username a {
-  color: #222 !important;
-  border-bottom-width: thick #222;
+  color: var(--text-color) !important;
+  border-bottom-width: thick var(--text-color);
   font-weight: bold;
 }
 
@@ -315,18 +315,20 @@ body {
   padding: 2.5vh 5%;
   margin: 1vh 0px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 10px;
   color: var(--text-color);
   border: 1px solid rgb(0, 0, 0, 0.08);
-  box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
-  transition: 0.4s ease-in-out;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
+  0 1px 2px rgba(0,0,0,0.24);
+  transition: 0.5s ease-in-out;
   transform: scale(1);
 }
 
 .projects section:hover {
   cursor: pointer;
   border: 1px solid rgb(0, 0, 0, 0);
-  box-shadow: 0px 15px 35px rgb(0, 0, 0, 0.06);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+  0 10px 10px rgba(0,0,0,0.22);
   transform: scale(1.03);
 }
 
@@ -442,6 +444,7 @@ body {
   top: 30px;
   right: -10px;
   bottom: 0;
+  margin: 10px;
 }
 ::selection {
   color: var(--bg-color);
@@ -565,12 +568,12 @@ body {
 }
 :root {
   --bg-color: #fff;
-  --text-color: rgb(10, 10, 10);
+  --text-color: #222;
   --blog-gray-color: rgb(80, 80, 80);
-  --background-image: linear-gradient(
+  /* --background-image: linear-gradient(
       90deg,
       rgba(10, 10, 10, 0.4),
       rgb(10, 10, 10, 0.4)
-    ),
+    ), */
   --background-background: #fff;
 }
