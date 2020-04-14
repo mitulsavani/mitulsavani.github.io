@@ -51,7 +51,7 @@ body {
 
 #profile {
   width: 24vw;
-  padding: 4vh 3vw;
+  padding: 7vh 3vw;
   height: 92vh;
   display: flex;
   flex-direction: column;
@@ -225,6 +225,7 @@ body {
 
 #footer a:hover{
   color: #5d93ff !important;
+  transition: 0.5s;
   text-decoration: none;
 }
 
@@ -275,6 +276,7 @@ body {
 #about a:hover,
 #username a:hover {
   color: #5d93ff !important;
+  transition: 0.5s;
   text-decoration: none;
 }
 
