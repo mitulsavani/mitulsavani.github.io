@@ -340,6 +340,16 @@ body {
   margin: 1vh 0px;
   padding: 0px 1px;
   word-wrap: break-word;
+  display: inline;
+  clear: both;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+  color: lightslategray;
 }
 
 .about_section {
