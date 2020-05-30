@@ -51,7 +51,7 @@ body {
 
 #profile {
   width: 24vw;
-  padding: 7vh 3vw;
+  padding: 4vh 3vw;
   height: 92vh;
   display: flex;
   flex-direction: column;
@@ -244,6 +244,12 @@ body {
 #profile div {
   font-weight: bold;
   margin: 1.5vh 0px;
+}
+
+#position{
+  font-size: 15px;
+  font-weight: lighter;
+  color: slategray;
 }
 
 #username {
