@@ -268,7 +268,9 @@ body {
 }
 
 #about {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: lighter;
+  word-wrap: break-word;
   font-family: "Questrial", sans-serif;
 }
 
