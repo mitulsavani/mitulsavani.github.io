@@ -216,17 +216,16 @@ body {
 }
 
 #footer a {
-  color: var(--text-color) !important;
+  color: #5d93ff !important;
   font-family: "Questrial", sans-serif;
-  border-bottom-width: thin;
-  font-weight: bolder;
+  text-decoration: none;
 }
 
 
 #footer a:hover{
   color: #5d93ff !important;
   transition: 0.5s;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #profile_img {
@@ -242,7 +241,6 @@ body {
 }
 
 #profile div {
-  font-weight: bold;
   margin: 1.5vh 0px;
 }
 
@@ -268,24 +266,25 @@ body {
 }
 
 #about {
-  font-size: 14px;
-  font-weight: lighter;
+  font-size: 15px;
+  font-weight: unset;
   word-wrap: break-word;
   font-family: "Questrial", sans-serif;
 }
 
 #about a,
+#socials a:hover,
 #username a {
-  color: var(--text-color) !important;
-  border-bottom-width: thick var(--text-color);
-  font-weight: bold;
+  color: #5d93ff !important;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 #about a:hover,
 #username a:hover {
   color: #5d93ff !important;
   transition: 0.5s;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #about span {
