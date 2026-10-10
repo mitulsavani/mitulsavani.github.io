@@ -1,6 +1,6 @@
 # mitulsavani.com
 
-Personal website of Mitul Savani — Technical Lead at [HuLoop Automation](https://huloop.ai).
+Personal website of Mitul Savani — forward-deployed AI & automation engineering leader, Automation Technical Lead at [HuLoop Automation](https://huloop.ai).
 
 A single-page static site: plain HTML and CSS, no build step, no dependencies. Hosted on GitHub Pages with a custom domain (see `CNAME`).
 

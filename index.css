@@ -112,6 +112,12 @@ h1 {
   color: var(--text);
 }
 
+.tagline {
+  margin-top: 0.15rem;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
 .location {
   margin-top: 0.15rem;
   font-size: 0.95rem;
@@ -172,6 +178,17 @@ section p + p {
 .entry p {
   margin-top: 0.25rem;
   color: var(--muted);
+}
+
+.entry ul {
+  list-style: disc;
+  margin-top: 0.6rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.entry li + li {
+  margin-top: 0.35rem;
 }
 
 /* Links */
