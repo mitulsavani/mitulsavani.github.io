@@ -1,238 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mitul Savani — Forward-Deployed AI &amp; Automation Engineering Leader</title>
-	<meta name="description"
-		content="Mitul Savani leads forward-deployed AI and automation engineering at HuLoop Automation, taking banking workflows from technical discovery to secure, production-grade deployments across 35 banking customers.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitul Savani</title>
+<meta name="description"
+		content="Mitul Savani leads forward-deployed AI and automation engineering at HuLoop Automation, taking banking workflows from discovery to production across 35 banking and credit union customers.">
 	<meta property="og:title" content="Mitul Savani — Forward-Deployed AI &amp; Automation Engineering Leader">
 	<meta property="og:description"
-		content="Customer-embedded engineering leader taking AI and automation from discovery to production across 35 banking customers.">
+		content="Customer-embedded engineering leader taking AI and automation from discovery to production across 35 banking and credit union customers.">
 	<meta property="og:url" content="https://mitulsavani.com">
-	<script>
-		(function () {
-			try {
-				var t = localStorage.getItem("theme");
-				if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
-			} catch (e) { }
-		})();
-	</script>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap">
-	<link rel="stylesheet" href="index.css">
-	<link rel="icon" href="profile.jpg" type="image/jpeg">
+<link rel="icon" href="profile.jpg" type="image/jpeg">
+<style>
+:root { --bg: #fff; --text: #333; --strong: #000; --link: #0864c7; --muted: #777; }
+:root[data-theme="dark"] { --bg: #141414; --text: #d6d6d6; --strong: #fff; --link: #6aa8ef; --muted: #999; }
+body { background: var(--bg); color: var(--text); font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; font-size: 13px; line-height: 18px; margin: 8px 16px; }
+a { color: var(--link); }
+#menu { position: absolute; right: 16px; top: 16px; text-align: right; }
+#menu .title { font-weight: bold; color: var(--strong); }
+#menu ul { list-style: none; padding: 0; margin: 2px 0 0; }
+#menu li { line-height: 16px; }
+#content { width: 500px; max-width: 100%; margin: 16px 0 40px 16px; }
+img.photo { width: 130px; height: 130px; object-fit: cover; display: block; margin-bottom: 4px; }
+h2 { font-size: 13px; color: var(--strong); margin: 22px 0 6px; }
+b { color: var(--strong); }
+ul.items { padding-left: 28px; }
+ul.items li { margin-bottom: 9px; }
+.when { color: var(--muted); }
+@media (max-width: 640px) {
+  #menu { position: static; text-align: left; margin: 8px 0 0; }
+  #menu ul li { display: inline; margin-right: 10px; }
+  #content { margin-left: 0; }
+}
+</style>
 </head>
-
 <body>
-	<div class="theme-switch" role="group" aria-label="Theme">
-		<button type="button" data-set-theme="system" aria-label="Use system theme" title="System">
-			<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-				stroke-linecap="round" stroke-linejoin="round">
-				<rect x="2" y="3" width="20" height="14" rx="2" />
-				<line x1="8" y1="21" x2="16" y2="21" />
-				<line x1="12" y1="17" x2="12" y2="21" />
-			</svg>
-		</button>
-		<button type="button" data-set-theme="light" aria-label="Use light theme" title="Light">
-			<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-				stroke-linecap="round" stroke-linejoin="round">
-				<circle cx="12" cy="12" r="4" />
-				<line x1="12" y1="2" x2="12" y2="5" />
-				<line x1="12" y1="19" x2="12" y2="22" />
-				<line x1="4.9" y1="4.9" x2="7" y2="7" />
-				<line x1="17" y1="17" x2="19.1" y2="19.1" />
-				<line x1="2" y1="12" x2="5" y2="12" />
-				<line x1="19" y1="12" x2="22" y2="12" />
-				<line x1="4.9" y1="19.1" x2="7" y2="17" />
-				<line x1="17" y1="7" x2="19.1" y2="4.9" />
-			</svg>
-		</button>
-		<button type="button" data-set-theme="dark" aria-label="Use dark theme" title="Dark">
-			<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-				stroke-linecap="round" stroke-linejoin="round">
-				<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-			</svg>
-		</button>
-	</div>
-	<main>
-		<header>
-			<img class="portrait" src="profile.jpg" alt="Mitul Savani">
-			<h1>Mitul Savani</h1>
-			<p class="role">Automation Technical Lead · <a href="https://huloop.ai" target="_blank" rel="noopener">HuLoop
-					Automation</a></p>
-			<p class="tagline">Forward-deployed AI &amp; automation engineering for banking</p>
-			<p class="location">Sacramento, California</p>
-		</header>
+<div id="menu">
+<span class="title">Mitul Savani</span>
+<ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#work">Work</a></li>
+  <li><a href="#earlier">Earlier</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#open-source">Open source</a></li>
+  <li><a href="https://www.linkedin.com/in/savanimitul/">LinkedIn</a></li>
+  <li><a href="https://github.com/mitulsavani">GitHub</a></li>
+  <li><a href="https://twitter.com/mitulsavani_">Twitter</a></li>
+</ul>
+</div>
 
-		<section id="about">
-			<p>I lead forward-deployed engineering at HuLoop Automation. My team works directly inside banks,
-				turning complex operational, regulatory, and core-banking requirements into AI and automation
-				systems that run in production. So far that's 35 banking customers, across deposit operations,
-				lending, payments, fraud, reconciliation, treasury, document processing, and customer onboarding.</p>
-			<p>I own each deployment from technical discovery to production: process analysis, solution
-				architecture, estimation, build, supervised testing, rollout, hypercare, and the enhancements that
-				follow once real volume surfaces the edge cases. That means designing secure environments that
-				bank security teams sign off on, planning capacity for attended and unattended digital workers,
-				deciding where humans stay in the loop, and staying accountable for whether the system actually
-				runs. What we learn in the field goes back to our product team as platform improvements.</p>
-			<p>I manage and mentor a team of more than 12 engineers, and I've built it as much as led it: I own hiring,
-				growth, and performance decisions. My engineers join discovery sessions, solution design, client
-				conversations, and production deployments, so each of them can own a customer use case end to end.</p>
-			<p>Before HuLoop, I spent five years architecting and shipping enterprise mobile apps for government
-				agencies, and contributed to Meta's React Native. I came to San Francisco from Surat, India, at 18 to
-				study computer science and mathematics, and never stopped building.</p>
-			<p>Away from work, you'll find me on the golf course, training for Hyrox and CrossFit, or spending
-				quality time with my family.</p>
-			<p class="focus">Forward&nbsp;Deployed&nbsp;Engineering · AI&nbsp;&amp;&nbsp;Automation&nbsp;Architecture ·
-				Production&nbsp;Operations · Intelligent&nbsp;Document&nbsp;Processing · Human&#8209;in&#8209;the&#8209;Loop&nbsp;Design ·
-				Engineering&nbsp;Leadership</p>
-		</section>
+<div id="content">
+<img class="photo" src="profile.jpg" alt="Mitul Savani">
 
-		<section id="experience">
-			<h2>Experience</h2>
-			<div class="entry">
-				<div class="entry-head">
-					<span class="entry-role">Automation Technical Lead · HuLoop Automation</span>
-					<span class="entry-dates">2024 – Present</span>
-				</div>
-				<p>Lead forward-deployed engineering and automation delivery for 35 banking customers, owning the
-					full lifecycle from discovery and solution architecture through production rollout, hypercare,
-					and ongoing enhancement. Part-time from 2024, full-time since January 2026.</p>
-				<ul>
-					<li>Architected secure development and production environments for banks: separated service
-						accounts, VPN, MFA, RBAC, Active Directory, audit logging, and controlled access to core-banking
-						applications.</li>
-					<li>Designed attended and unattended agent architectures, scheduling production jobs around
-						maintenance windows, preventing runtime overlap, and scaling server capacity as volume grew.</li>
-					<li>Integrated with CSI NuPoint, Fiserv Premier, Jack Henry SilverLake, ServiceNow, Salesforce,
-						Microsoft 365, document-management systems, and external banking portals.</li>
-					<li>Run production reliability for live digital workers: audit-log and run review, failed-run
-						recovery, root-cause analysis, regression testing, and customer validation.</li>
-					<li>Turned field issues into platform enhancements for scheduler reliability, machine-specific
-						agent routing, centralized run monitoring, release visibility, and unattended desktop
-						execution.</li>
-					<li>Established delivery governance across a high-concurrency portfolio: weekly commitments, risk
-						and confidence reporting, priority sequencing, and blocker escalation.</li>
-				</ul>
-			</div>
-			<div class="entry">
-				<div class="entry-head">
-					<span class="entry-role">Mobile Developer · AgreeYa Solutions</span>
-					<span class="entry-dates">2020 – 2025</span>
-				</div>
-				<p>Architected and led the delivery of enterprise mobile applications for municipal, county, and
-					state government organizations across Flutter, Ionic, and React Native, working directly with
-					directors and enterprise architects on scope, estimates, and CI automation. AgreeYa was later
-					acquired by Computacenter.</p>
-			</div>
-			<div class="entry">
-				<div class="entry-head">
-					<span class="entry-role">Software Engineer · Kandou</span>
-					<span class="entry-dates">2019 – 2020</span>
-				</div>
-				<p>Built the core infrastructure of the mobile app — navigation, state management, authentication — and
-					shipped releases to 500+ active users on the app stores.</p>
-			</div>
-			<div class="entry">
-				<div class="entry-head">
-					<span class="entry-role">Undergraduate Researcher · Claryty</span>
-					<span class="entry-dates">2018 – 2019</span>
-				</div>
-				<p>Developed a pharmaceutical mobile app surfacing FDA adverse-effect data for consumers, in
-					collaboration with Stanford University researchers.</p>
-			</div>
-		</section>
+<p id="about">I live in Sacramento and lead forward-deployed engineering at <a href="https://huloop.ai/">HuLoop Automation</a>. My team and I work directly with banks and credit unions, 35 of them so far. What I enjoy most is taking a customer's hardest operational problem from the first conversation to a system that runs reliably in production. I came to San Francisco from Surat, India, at 18 and studied computer science and mathematics at SF State.</p>
 
-		<section id="education">
-			<h2>Education</h2>
-			<div class="entry">
-				<div class="entry-head">
-					<span class="entry-role">M.S. in Engineering Management · Westcliff University</span>
-					<span class="entry-dates">2025</span>
-				</div>
-				<p>Graduated summa cum laude.</p>
-			</div>
-			<div class="entry">
-				<div class="entry-head">
-					<span class="entry-role">B.S. in Computer Science · San Francisco State University</span>
-					<span class="entry-dates">2020</span>
-				</div>
-				<p>Graduated magna cum laude. Founded the Computer Science department's tutoring program and led it
-					for three years, improving core-course performance for incoming students by 30%. Helped organize
-					SF Hacks — a San Francisco collegiate hackathon with 350+ attendees — leading sponsor
-					outreach that raised $18,000 from 30+ companies.</p>
-			</div>
-		</section>
+<p>Email: <a href="mailto:mitul.savani1@gmail.com">mitul.savani1@gmail.com</a>.</p>
 
-		<section id="open-source">
-			<h2>Open source</h2>
-			<ul>
-				<li><a href="https://github.com/facebook/react-native" target="_blank"
-						rel="noopener">facebook/react-native</a> — migrated the ImageStore native module to the new
-					TurboModule architecture.</li>
-				<li><a href="https://reactnative.dev/" target="_blank"
-						rel="noopener">facebook/react-native-website</a> — updated API and component documentation for
-					the v62 release.</li>
-				<li><a href="https://education.github.com/graduation" target="_blank"
-						rel="noopener">github/education</a> — reviewed 180+ pull requests for GitHub's class-of-2020
-					online graduation.</li>
-				<li><a href="https://reactnative.directory/" target="_blank"
-						rel="noopener">react-native-community/directory</a> — added 50+ libraries to the React Native
-					directory.</li>
-			</ul>
-		</section>
+<p>Things I work on:</p>
 
-		<section id="research">
-			<h2>Research</h2>
-			<p><a href="clarytyposter.pdf" target="_blank">Claryty</a> — a bioinformatics research project making
-				FDA adverse-effect data on marketed drugs transparent and accessible to consumers, built on 20+
-				million rows of FDA adverse-event data. Awarded 3rd prize out of 240 projects at SF State's College
-				of Science &amp; Engineering annual showcase.</p>
-		</section>
+<ul class="items">
+  <li><b>Being close to the problem.</b> I sit in discovery with the people doing the work, design the solution, get it through the bank's security review, and stay with it after go-live until it runs on its own.</li>
+  <li><b>Production, not demos.</b> A mobile deposit bot I built replaced manual review in a bank's core system. It handles about 1,200 checks a week, and the bank has since raised its limit 5x.</li>
+  <li><b>Configuration over code.</b> I rebuilt a failing C# pipeline (100,000+ documents per cycle) into a configuration-driven platform that serves 3 clients from one deployment.</li>
+  <li><b>Working around the platform.</b> When the platform couldn't handle a legal-collections client's logic natively, I built a VBA engine: 12,000+ records in about 84 seconds, with errors down to 3 per 800 records.</li>
+  <li><b>Turnarounds.</b> I turned around an at-risk client in about 2 weeks after roughly 5 months of failed unattended runs. They went on to expand their live automations.</li>
+  <li><b>Field to product.</b> An SAP proof of concept became a paid SOW. At the client security team's request, I changed our bot agent to run without admin rights, and that change shipped to every client. I've also written 22 product requirements to cut our builders' debugging and testing time.</li>
+  <li><b>People.</b> I've helped grow our engineering team from 7 to 24, and I manage and mentor 12+ engineers across the US and India. I want each of them to be able to own a customer end to end.</li>
+</ul>
 
-		<footer>
-			<nav class="contact">
-				<a href="https://www.linkedin.com/in/savanimitul/" target="_blank" rel="noopener">LinkedIn</a>
-				<a href="https://github.com/mitulsavani" target="_blank" rel="noopener">GitHub</a>
-				<a href="https://twitter.com/mitulsavani_" target="_blank" rel="noopener">Twitter</a>
-				<a href="mailto:mitul.savani1@gmail.com">Email</a>
-			</nav>
-			<p class="copyright">© 2026 Mitul Savani</p>
-		</footer>
-	</main>
-	<script>
-		(function () {
-			var buttons = document.querySelectorAll(".theme-switch button");
-			function stored() {
-				try { return localStorage.getItem("theme"); } catch (e) { return null; }
-			}
-			function apply(mode) {
-				try {
-					if (mode === "light" || mode === "dark") {
-						document.documentElement.dataset.theme = mode;
-						localStorage.setItem("theme", mode);
-					} else {
-						mode = "system";
-						delete document.documentElement.dataset.theme;
-						localStorage.removeItem("theme");
-					}
-				} catch (e) { }
-				buttons.forEach(function (b) {
-					b.classList.toggle("active", b.dataset.setTheme === mode);
-				});
-			}
-			buttons.forEach(function (b) {
-				b.addEventListener("click", function () {
-					apply(b.dataset.setTheme);
-				});
-			});
-			apply(stored() || "system");
-		})();
-	</script>
+<h2 id="work">Work</h2>
+<ul class="items">
+  <li><b><a href="https://huloop.ai/">HuLoop Automation</a></b>, Automation Technical Lead <span class="when">(2024 – present)</span>. Forward-deployed automation delivery for 35 banking and credit union customers, plus legal-services clients, across about 50 projects.</li>
+  <li><b><a href="https://agreeya.com/">AgreeYa Solutions</a></b>, Mobile Developer <span class="when">(2020 – 2025)</span>. Led mobile delivery for 5 public-sector clients with four engineers and a QA engineer: <a href="https://apps.apple.com/us/app/south-coast-aqmd/id358859718">air-quality and fire advisory apps</a> for South Coast AQMD, an emergency directory for Stanislaus County, parks and bus apps for the Town of Morrisville, a lost-pets app for the Town of Marana, and a <a href="https://apps.apple.com/us/app/mydwihn/id1642577658">member app</a> for Detroit Wayne Integrated Health Network. Built <a href="https://agreeya.com/software/community-engagement-mobile-platform/">CEMA</a>, plug-and-play city modules demoed to cities across the US, and a CI framework for App Store and Google Play releases. AgreeYa was later acquired by <a href="https://www.computacenter.com/en-us">Computacenter</a>.</li>
+</ul>
+
+<h2 id="earlier">Earlier</h2>
+<ul class="items">
+  <li><b>Kandou</b>, Software Engineer <span class="when">(2019 – 2020)</span>. Built the core of the mobile app and shipped releases to 500+ active users.</li>
+  <li><b>Claryty</b>, Software Development Intern &amp; Undergraduate Researcher <span class="when">(2018 – 2019)</span>. A React Native app for FDA adverse-effect data, built with Stanford researchers on 20+ million rows of FDA data. 3rd prize out of 240 projects at SF State's College of Science &amp; Engineering showcase. <a href="clarytyposter.pdf">Research poster (PDF)</a>.</li>
+</ul>
+
+<h2 id="education">Education</h2>
+<ul class="items">
+  <li><b>M.S. in Engineering Management</b>, <a href="https://www.westcliff.edu/">Westcliff University</a>. 4.0 GPA, summa cum laude.</li>
+  <li><b>B.S. in Computer Science</b>, <a href="https://www.sfsu.edu/">San Francisco State University</a>. 3.82 GPA, magna cum laude, Dean's Scholar List. Founded ACM tutoring services, was a TA for the MobileSpace React Native bootcamp, and helped organize <a href="https://www.sfhacks.io/">SF Hacks</a> (350+ attendees, $18,000 raised from 30+ sponsors).</li>
+</ul>
+
+<h2 id="open-source">Open source</h2>
+<ul class="items">
+  <li><a href="https://github.com/facebook/react-native">facebook/react-native</a>: <a href="https://github.com/facebook/react-native/pull/25101">migrated the ImageStore native module</a> to TurboModules (v0.59).</li>
+  <li><a href="https://reactnative.dev/">react-native-website</a>: <a href="https://github.com/facebook/react-native-website/pull/2142">updated API and component docs</a> for v0.62.</li>
+  <li><a href="https://education.github.com/graduation">github/education</a>: reviewed 180+ pull requests for GitHub's class-of-2020 graduation.</li>
+  <li><a href="https://reactnative.directory/">react-native-community/directory</a>: <a href="https://github.com/react-native-community/directory/pull/289">added 47 libraries</a>.</li>
+</ul>
+
+<p>Away from work: golf, Hyrox and CrossFit, and time with my family.</p>
+</div>
 </body>
-
 </html>
