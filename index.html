@@ -15,20 +15,22 @@
 <style>
 :root { --bg: #fff; --text: #333; --strong: #000; --link: #0864c7; --muted: #777; }
 :root[data-theme="dark"] { --bg: #141414; --text: #d6d6d6; --strong: #fff; --link: #6aa8ef; --muted: #999; }
-body { background: var(--bg); color: var(--text); font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; font-size: 13px; line-height: 18px; margin: 8px 16px; }
+body { background: var(--bg); color: var(--text); font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; font-size: 15px; line-height: 22px; margin: 8px 16px; }
 a { color: var(--link); }
 #menu { position: absolute; right: 16px; top: 16px; text-align: right; }
 #menu .title { font-weight: bold; color: var(--strong); }
 #menu ul { list-style: none; padding: 0; margin: 2px 0 0; }
-#menu li { line-height: 16px; }
-#content { width: 500px; max-width: 100%; margin: 16px 0 40px 16px; }
-img.photo { width: 130px; height: 130px; object-fit: cover; display: block; margin-bottom: 4px; }
-h2 { font-size: 13px; color: var(--strong); margin: 22px 0 6px; }
+#menu li { line-height: 20px; }
+#content { width: 580px; max-width: 100%; margin: 16px 0 40px 200px; }
+@media (max-width: 960px) { #content { margin-left: 16px; } }
+img.photo { width: 130px; height: 130px; object-fit: cover; display: block; margin-bottom: 8px; }
+.headline { color: var(--strong); font-weight: bold; margin: 0 0 14px; }
+h2 { font-size: 15px; color: var(--strong); margin: 22px 0 6px; }
 b { color: var(--strong); }
 ul.items { padding-left: 28px; }
 ul.items li { margin-bottom: 9px; }
 .when { color: var(--muted); }
-@media (max-width: 640px) {
+@media (max-width: 780px) {
   #menu { position: static; text-align: left; margin: 8px 0 0; }
   #menu ul li { display: inline; margin-right: 10px; }
   #content { margin-left: 0; }
@@ -52,8 +54,9 @@ ul.items li { margin-bottom: 9px; }
 
 <div id="content">
 <img class="photo" src="profile.jpg" alt="Mitul Savani">
+<p class="headline">Forward Deployed Engineer · Automation Technical Lead</p>
 
-<p id="about">I live in Sacramento and lead forward-deployed engineering at <a href="https://huloop.ai/">HuLoop Automation</a>. My team and I work directly with our customers, 35+ of them so far across banking, credit unions, legal services and utilities. What I enjoy most is taking a customer's hardest operational problem from the first conversation to a system that runs reliably in production. I have a B.S. in Computer Science from San Francisco State University and an M.S. in Engineering Management from Westcliff University.</p>
+<p id="about">I live in Sacramento and lead forward-deployed engineering at <a href="https://huloop.ai/">HuLoop Automation</a>. My team and I work directly with our customers, <b>35+</b> of them so far across banking, credit unions, legal services and utilities. What I enjoy most is taking a customer's hardest operational problem from the first conversation to a system that runs reliably in production. I have a B.S. in Computer Science from San Francisco State University and an M.S. in Engineering Management from Westcliff University.</p>
 
 <p><b>Focus:</b> forward deployment, solution architecture, process automation, intelligent document processing, production operations, engineering leadership, and customer and executive communication.</p>
 
@@ -66,12 +69,12 @@ ul.items li { margin-bottom: 9px; }
 <ul class="items">
   <li><b>Being close to the problem.</b> I lead each engagement from discovery to deployment, working with the client's teams and business analysts. I architect each process as its own agent, get it through the customer's security review, support it live after go-live, and present the ROI to the client's executives.</li>
   <li><b>Production, not demos.</b> At a regional bank, I moved 4 deposit operations processes from manual review to unattended agents: mobile deposit review, merchant remote deposits, duplicate-check investigation and high-dollar transfer-limit approvals. They cover about 1,200 mobile checks a week and 4,500 merchant deposits a month, with risky items still routed to a person. As trust grew, the bank raised the per-check auto-approval limit from $5,000 to $25,000.</li>
-  <li><b>Configuration over code.</b> I rebuilt a failing C# pipeline (100,000+ documents a week) into a configuration-driven platform that serves 4 clients from one deployment.</li>
+  <li><b>Configuration over code.</b> I rebuilt a failing C# pipeline (<b>100,000+ documents a week</b>) into a configuration-driven platform that serves 4 clients from one deployment.</li>
   <li><b>Working around the platform.</b> When the platform couldn't handle a legal-collections client's logic natively, I built a Python and VBA engine that processes 12,000+ records in about 84 seconds at 99.6% accuracy.</li>
   <li><b>Migrations.</b> I built a Python conversion engine that moved 18+ Nintex automation scripts onto HuLoop, so clients could switch without rebuilding each workflow by hand.</li>
   <li><b>Turnarounds.</b> I turn around at-risk client accounts with a recovery plan and a timeline. One client went from failing runs to recovered in about 2 weeks, then expanded its automations.</li>
   <li><b>Field to product.</b> An SAP proof of concept became a paid SOW. At the client security team's request, I changed our agent to run without admin rights, and that change shipped to every client. I've also written 22 product requirements to cut our builders' debugging and testing time.</li>
-  <li><b>People.</b> I've helped grow our engineering team from 7 to 24, and I manage and mentor 12+ engineers across the US and India. I want each of them to be able to own a customer end to end.</li>
+  <li><b>People.</b> I've helped grow our engineering team <b>from 7 to 24</b>, and I manage and mentor 12+ engineers across the US and India. I want each of them to be able to own a customer end to end.</li>
 </ul>
 
 <h2 id="work">Work</h2>
@@ -100,7 +103,7 @@ ul.items li { margin-bottom: 9px; }
   <li><b>GitHub Education</b>: <a href="https://education.github.com/graduation">reviewed 180+ pull requests</a> for GitHub's class-of-2020 graduation.</li>
 </ul>
 
-<p>Away from work: Golf, Hyrox and CrossFit, and time with my family.</p>
+<p>Away from work: spending quality time with my family, working on my golf swing, and training for Hyrox and CrossFit.</p>
 </div>
 </body>
 </html>
